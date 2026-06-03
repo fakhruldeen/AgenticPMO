@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "agentic-pmo"
+version = "0.1.0"
+description = "Intelligence and orchestration layer for PMBOK 8th Edition project management workflows"
+authors = ["Mohamed Fouad Fakhruldeen <you@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "agents" },
+    { include = "graph" },
+    { include = "tools" },
+    { include = "schemas" },
+    { include = "api" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.28.0"
+langchain = "^0.1.0"
+langgraph = "^0.0.30"
+pmoskills = "^0.5.0"
+pydantic = "^2.6.0"
+pytest = "^8.0.0"
+langchain-core = "*"
+langchain-openai = "*"
+langchain-google-genai = "*"
+python-dotenv = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

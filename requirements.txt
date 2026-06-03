@@ -1,0 +1,11 @@
+fastapi>=0.110.0
+uvicorn>=0.28.0
+langchain>=0.1.0
+langgraph>=0.0.30
+pmoskills>=0.5.0
+pydantic>=2.6.0
+pytest>=8.0.0
+langchain-core
+langchain-openai
+langchain-google-genai
+python-dotenv
