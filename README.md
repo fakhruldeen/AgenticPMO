@@ -1,7 +1,7 @@
 # AgenticPMO
 
 <p align="center">
-  <a href="https://doi.org/10.5281/zenodo.20533682"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20533682.svg" alt="DOI"></a>
+  <a href="https://doi.org/10.5281/zenodo.20533682"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20533682-blue?style=for-the-badge&color=007dd1" alt="DOI"></a>
   <img src="https://img.shields.io/badge/PMBOK--8th--Edition-Compliant-vibrantgreen?style=for-the-badge&logo=pmi&logoColor=white&color=0073e6" alt="PMBOK 8th Edition Compliant">
   <img src="https://img.shields.io/badge/Orchestrator-LangGraph-orange?style=for-the-badge&logo=python&logoColor=white&color=ff8800" alt="Orchestration Layer">
   <img src="https://img.shields.io/badge/API-FastAPI-blue?style=for-the-badge&logo=fastapi&logoColor=white&color=009688" alt="FastAPI Ready">
