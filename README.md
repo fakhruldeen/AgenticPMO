@@ -194,3 +194,15 @@ This project utilizes the **PMOSkills** repository schema and database as its un
 ```
 
 *PMBOK and PMI are registered marks of the Project Management Institute, Inc.*
+
+---
+
+> [!NOTE]
+> **Independent Academic Project:** This repository contains summaries, templates, and compliance test suites compiled from public project management frameworks. PMBOK and PMI are registered trademarks of the Project Management Institute, Inc. This project is independently developed and is not affiliated with or endorsed by PMI.
+
+---
+
+*Authority: PMBOK 8 Primary · PMI Companion References Secondary · Organization-Defined Tertiary*  
+*Project: PMI PMBOK 8 Knowledge Base Repository Space*  
+*Maintainer:* **Mohamed Fouad Fakhruldeen *[GitHub](https://github.com/fakhruldeen), [LinkedIn](https://www.linkedin.com/in/fakhruldeen), [Website](https://fakhruldeen.me)***
+
