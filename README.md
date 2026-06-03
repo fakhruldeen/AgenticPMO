@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/img/agenticpmo.jpg" alt="AgenticPMO Logo/Banner" width="600">
+</p>
+
 # AgenticPMO
 
 <p align="center">
