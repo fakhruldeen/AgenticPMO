@@ -1,0 +1,88 @@
+# System and OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.bak.*
+*.bak.F*
+*.swp
+*~
+
+# Backups and Archives
+*.backup
+*.old
+*.zip
+*.tar
+*.gz
+
+# Documents
+*.pdf
+
+# Environment Variables & Secrets
+.env
+.env.*
+.env.local
+.env.production
+.env.staging
+secrets.json
+keys/
+
+# AI Tooling & Vibe Coding Artifacts
+.cursor/
+.cursorignore
+.cursorindexingignore
+.codeium/
+.codeiumignore
+.gemini/
+.agent/
+.agents/
+
+# Vector Databases & Memory Stores
+chroma_db/
+.cognee_system/
+.data_storage/
+
+# Dependency Management
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyp
+*.egg-info/
+.pytest_cache/
+vendor/
+
+# Local Databases & Indexes
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+.search/
+.index/
+
+# Build & Output Directories
+dist/
+build/
+out/
+coverage/
+target/
+
+# IDE/Editor specific folders
+.vscode/
+.idea/
+.project
+.settings/
+.classpath
+.factorypath
+.metadata/

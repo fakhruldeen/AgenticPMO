@@ -1,0 +1,48 @@
+# ===================================================================
+# AgenticPMO — GitHub Repository Attributes & Git Behavior Configuration
+# Aligned with PMI PMBOK 8th Edition — The Executable PMO Framework
+# Designed for Human Project Managers & Autonomous AI Agent Orchestration
+# ===================================================================
+
+# -------------------------------------------------------------------
+# 1. Primary Language Overrides (Linguist Configuration)
+# Keep Python as the primary language of the codebase
+# -------------------------------------------------------------------
+
+*.py linguist-language=Python
+*.py linguist-detectable=true
+
+# Keep structural config files as data/code
+*.yml linguist-detectable=true
+*.yaml linguist-detectable=true
+*.json linguist-detectable=true
+
+# -------------------------------------------------------------------
+# 2. AI Skill & PMO Architecture Mappings
+# Custom git attributes defining semantic layers for AI agents and builders
+# -------------------------------------------------------------------
+
+# Artifact Templates & Baselines
+artifacts/**/*.md pmo-layer=artifact-template
+artifacts/**/*.md pmo-placeholder-validated=true
+
+# -------------------------------------------------------------------
+# 3. Standard Git Behavioral Controls
+# -------------------------------------------------------------------
+
+# Force LF line endings for all text files (ensures scripts and tests compile cleanly across systems)
+* text=auto eol=lf
+
+# Explicitly treat markdown and configuration files as text
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Standard binary designations (avoids git delta issues on media assets)
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
