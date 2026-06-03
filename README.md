@@ -1,6 +1,7 @@
 # AgenticPMO
 
 <p align="center">
+  <a href="https://doi.org/10.5281/zenodo.20533682"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20533682.svg" alt="DOI"></a>
   <img src="https://img.shields.io/badge/PMBOK--8th--Edition-Compliant-vibrantgreen?style=for-the-badge&logo=pmi&logoColor=white&color=0073e6" alt="PMBOK 8th Edition Compliant">
   <img src="https://img.shields.io/badge/Orchestrator-LangGraph-orange?style=for-the-badge&logo=python&logoColor=white&color=ff8800" alt="Orchestration Layer">
   <img src="https://img.shields.io/badge/API-FastAPI-blue?style=for-the-badge&logo=fastapi&logoColor=white&color=009688" alt="FastAPI Ready">
@@ -178,7 +179,24 @@ PYTHONPATH=. pytest tests/test_graph.py -v
 
 ## 📖 Citation & References
 
-This project utilizes the **PMOSkills** repository schema and database as its underlying core.
+To cite **AgenticPMO** in your academic work:
+
+```bibtex
+@software{agenticpmo2026,
+  author       = {Fakhruldeen, Mohamed (Fouad)},
+  title        = {{fakhruldeen/AgenticPMO: Release v0.1.1}},
+  month        = jun,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v0.1.1},
+  doi          = {10.5281/zenodo.20533683},
+  url          = {https://doi.org/10.5281/zenodo.20533683}
+}
+```
+
+> Mohamed (Fouad) Fakhruldeen. (2026). fakhruldeen/AgenticPMO: Release v0.1.1 (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.20533683
+
+This project utilizes the **PMOSkills** repository schema and database as its underlying core:
 
 ```bibtex
 @misc{pmoskills2026,
